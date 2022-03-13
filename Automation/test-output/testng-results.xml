@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="7" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[TC03 executed]]>
+    </line>
+    <line>
+      <![CDATA[TC07 executed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="111" started-at="2022-03-08T12:17:25 IST" finished-at="2022-03-08T12:17:25 IST">
+    <groups>
+      <group name="intraday">
+        <method signature="A.TC03()[pri:0, instance:com.testng1.A@6f195bc3]" name="TC03" class="com.testng1.A"/>
+        <method signature="C.TC07()[pri:0, instance:com.testng1.C@32d2fa64]" name="TC07" class="com.testng1.C"/>
+      </group> <!-- intraday -->
+    </groups>
+    <test name="Test" duration-ms="111" started-at="2022-03-08T12:17:25 IST" finished-at="2022-03-08T12:17:25 IST">
+      <class name="com.testng1.C">
+        <test-method status="PASS" signature="TC07()[pri:0, instance:com.testng1.C@32d2fa64]" name="TC07" duration-ms="3" started-at="2022-03-08T12:17:25 IST" finished-at="2022-03-08T12:17:25 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TC07 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC07 -->
+      </class> <!-- com.testng1.C -->
+      <class name="com.testng1.A">
+        <test-method status="PASS" signature="TC03()[pri:0, instance:com.testng1.A@6f195bc3]" name="TC03" duration-ms="20" started-at="2022-03-08T12:17:25 IST" finished-at="2022-03-08T12:17:25 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TC03 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC03 -->
+      </class> <!-- com.testng1.A -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

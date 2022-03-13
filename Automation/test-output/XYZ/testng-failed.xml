@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [XYZ]">
+  <test thread-count="5" name="Test01(failed)">
+    <classes>
+      <class name="fbsxbv.A">
+        <methods>
+          <include name="TC03"/>
+        </methods>
+      </class> <!-- fbsxbv.A -->
+      <class name="fbsxbv.B">
+        <methods>
+          <include name="TC05"/>
+        </methods>
+      </class> <!-- fbsxbv.B -->
+      <class name="fbsxbv.C">
+        <methods>
+          <include name="TC07"/>
+        </methods>
+      </class> <!-- fbsxbv.C -->
+    </classes>
+  </test> <!-- Test01(failed) -->
+</suite> <!-- Failed suite [XYZ] -->
